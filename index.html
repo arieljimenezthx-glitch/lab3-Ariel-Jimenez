@@ -5,11 +5,11 @@
     <!-- 2.2.2 Metadatos -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- TODO 1: Completa tus datos de autor (Anti-Plagio) -->
-    <meta name="author" content="TU NOMBRE Y APELLIDO - CÉDULA">
+
+    <!-- TODO 1: Datos de autor (Anti-Plagio) -->
+    <meta name="author" content="Ariel Jimenez - 8-1043-1259">
     <meta name="description" content="Portal de Recursos Académicos y Multimedia UTP">
-    
+
     <title>Laboratorio 3 - Portal Multimedia HTML5</title>
 
     <style>
@@ -53,13 +53,13 @@
             <!-- SECCIÓN 1: ARTÍCULO TÉCNICO CON SEMÁNTICA DE TEXTO -->
             <section id="articulos">
                 <h2>1. Avances en el Desarrollo Web Moderno</h2>
-                
+
                 <article>
                     <h3>La Evolución de los Estándares</h3>
                     <p>
                         Publicado el <time datetime="2026-09-10">10 de septiembre de 2026</time> por <strong>Prof. Victor M. Sarmiento A.</strong>
                     </p>
-                    
+
                     <p>
                         El estándar HTML5 ha transformado la Web. Hoy en día es crucial utilizar <mark>etiquetas semánticas</mark> para mejorar el posicionamiento SEO y la accesibilidad WCAG. Por ejemplo, en JavaScript podemos realizar peticiones asíncronas usando:
                     </p>
@@ -69,10 +69,10 @@
                         <code>fetch('https://api.utp.ac.pa/datos')</code>
                     </div>
 
-                    <!-- TODO 2: Agrega una cita textual con <blockquote> y la fuente con <cite> -->
+                    <!-- TODO 2: Cita textual con blockquote y fuente con cite -->
                     <blockquote>
-                        "La Web no es solo para consumir información, sino para crear experiencias accesibles para todos."
-                        <br><cite>— Tim Berners-Lee</cite>
+                        "La edad de piedra no estaría tan lejos si no fuera gracias a la Tecnología."
+                        <br><cite>— Ariel Jiménez, 2026</cite>
                     </blockquote>
                 </article>
             </section>
@@ -82,7 +82,7 @@
             <!-- SECCIÓN 2: TABLA DE PROGRAMACIÓN DE CLASES -->
             <section id="horario">
                 <h2>2. Programación de Sesiones del Semestre</h2>
-                
+
                 <!-- 2.2.6 Tablas Completa -->
                 <table>
                     <caption>Horario de Clases y Laboratorios de Desarrollo Web</caption>
@@ -95,7 +95,6 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <!-- TODO 3: Agrega 3 filas de contenido con datos reales de la asignatura -->
                         <tr>
                             <td>Módulo I</td>
                             <td>Introducción y Arquitectura Web</td>
@@ -114,11 +113,18 @@
                             <td>16 hrs</td>
                             <td><small>Pendiente</small></td>
                         </tr>
+                        <!-- TODO 3: Fila agregada sobre Backend con PHP y MySQL -->
+                        <tr>
+                            <td>Módulo IV</td>
+                            <td>Backend con PHP y MySQL</td>
+                            <td>14 hrs</td>
+                            <td><small>Pendiente</small></td>
+                        </tr>
                     </tbody>
                     <tfoot>
                         <tr>
                             <td colspan="2">Total de Horas Académicas</td>
-                            <td colspan="2">36 Horas</td>
+                            <td colspan="2">50 Horas</td>
                         </tr>
                     </tfoot>
                 </table>
@@ -130,27 +136,27 @@
             <section id="multimedia">
                 <h2>3. Galería Multimedia e Incrustada</h2>
 
-                <!-- TODO 4: Imagen con figure y figcaption (2.2.5 y 2.2.8) -->
+                <!-- TODO 4: Imagen con figure y figcaption -->
                 <figure>
-                    <img src="https://via.placeholder.com/600x200?text=Estructura+HTML5+UTP" alt="Diagrama de estructura HTML5" style="max-width: 100%;">
-                    <figcaption>Figura 1: Arquitectura semántica del DOM en documentos HTML5 modernos.</figcaption>
+                    <img src="https://static.tvn-2.com/clip/fe1396f6-d35b-41c5-90f2-cdc41e693aeb_16-9-aspect-ratio_default_1018844.webp" alt="https://static.tvn-2.com/clip/fe1396f6-d35b-41c5-90f2-cdc41e693aeb_16-9-aspect-ratio_default_1018844.webp" style="max-width: 100%;">
+                    <figcaption>Figura 1 Representacion Visual del Famoso Yerik Emil Navarro Mosquera.</figcaption>
                 </figure>
 
-                <!-- TODO 5: Contenido de Audio o Video nativo (2.2.8) -->
+                <!-- TODO 5: Audio nativo -->
                 <h3>Demostración de Audio Académico</h3>
                 <audio controls>
-                    <source src="audio-demo.mp3" type="audio/mpeg">
+                    <source src="yemil.mp3" type="audio/mpeg">
                     Tu navegador no soporta el elemento de audio HTML5.
                 </audio>
 
-                <!-- TODO 6: Contenido Incrustado Externe con <iframe> (2.2.8) -->
+                <!-- TODO 6: Contenido incrustado externo con iframe -->
                 <h3>Ubicación del Campus Central UTP</h3>
-                <iframe 
-                    src="https://maps.google.com/maps?q=Universidad%20Tecnol%C3%B3gica%20de%20Panam%C3%A1&t=&z=15&ie=UTF8&iwloc=&output=embed" 
-                    width="100%" 
-                    height="250" 
-                    style="border:0; border-radius: 8px;" 
-                    allowfullscreen="" 
+                <iframe
+                    src="https://maps.google.com/maps?q=Universidad%20Tecnol%C3%B3gica%20de%20Panam%C3%A1&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                    width="100%"
+                    height="250"
+                    style="border:0; border-radius: 8px;"
+                    allowfullscreen=""
                     loading="lazy">
                 </iframe>
             </section>
